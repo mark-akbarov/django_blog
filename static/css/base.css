@@ -12,6 +12,16 @@ header {
     background-color:limegreen;
     }
 
+a, a:visited{
+    padding-right: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+a.special-button{
+    color: black;
+}
+
 header h1 a {
     color: white;
     text-decoration: none;
