@@ -27,6 +27,7 @@ header h1 a {
     text-decoration: none;
     color: black;
     font-weight: 600;
+    margin-left: 20px;
 
 }
 
@@ -58,8 +59,8 @@ header h1 a {
     color: rgb(81, 134, 212);
 }
 
-p a{
+p a, p a:visited{
     color: black;
-    font-weight: 500;
+    font-weight: 600;
     text-decoration: none;
 }

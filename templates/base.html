@@ -12,6 +12,7 @@
                      <h1><a href="{% url 'home' %}">Django blog</a></h1>
                 </div>
                 <div class="nav-right">
+                    <a href="{% url 'signup' %}">Signup</a>
                     <a href="{% url 'post_new' %}">+ New Post</a>
                 </div>
               </header>
@@ -19,8 +20,8 @@
                     <p>Hi <em>{{ user.username }}!</em></p>
                     <p><a href="{% url 'logout' %}">Log out</a></p>
                 {% else %}
-                    <p>You are not logged in.</p>
-                    <a href="{% url 'login' %}">Log In</a>
+                    <p>You are not logged in!</p>
+                    <p><a href="{% url 'login' %}">Log In</a></p>
                 {% endif %}
                 
         {% block content %}
