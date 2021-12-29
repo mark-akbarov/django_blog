@@ -9,11 +9,11 @@ body {
 header {
     margin-bottom: 2rem;
     display: flex;
-    background-color:limegreen;
+    background-color:rgb(8, 11, 49) ;
     }
 
 a, a:visited{
-    padding-right: 5px;
+    padding-right: 10px;
     text-decoration: none;
     color: white;
 }
