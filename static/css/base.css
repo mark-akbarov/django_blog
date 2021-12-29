@@ -52,7 +52,7 @@ header h1 a {
 
 .post-entry h2 a,
 .post-entry h2 a:visited {
-    color:limegreen ;
+    color:rgb(18, 57, 107) ;
     text-decoration: none;
     }
 
