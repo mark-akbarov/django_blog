@@ -22,6 +22,10 @@ a.special-button{
     color: black;
 }
 
+.special-div{
+    padding: 5px;
+}
+
 header h1 a {
     color: white;
     text-decoration: none;

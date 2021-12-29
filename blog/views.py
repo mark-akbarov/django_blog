@@ -22,7 +22,7 @@ class BlogCreateView(CreateView):
 
 class BlogUpdateView(UpdateView):
     model = Post
-    template_name = 'post_edit.html'
+    template_name = 'post_update.html'
     fields = ['title', 'body']
 
 
